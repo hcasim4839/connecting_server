@@ -11,7 +11,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: connect_to_aternos_server.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.12
       CodeUri: ./lambda
       Events:
         ConnectToAternosApi:
